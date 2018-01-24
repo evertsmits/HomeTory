@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.evertsmits.hometory">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboard"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.CategoryOverviewActivity" />
+        <activity android:name=".activities.AddCategoryActivity" />
+        <activity
+            android:name=".activities.CategoryViewActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activities.AddObjectActivity" />
+        <activity android:name=".activities.EditObjectActivity" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.HomeInfoActivity"
+            android:label="@string/title_activity_home_info"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

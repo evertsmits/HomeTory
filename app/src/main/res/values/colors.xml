@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorText">#FFFFFF</color>
+    <color name="objectListItem">#EFEFEF</color>
+    <color name="colorLine">#C0C0C0</color>
+    <color name="colorButton">#08AE9E</color>
+    <color name="colorEdgeEffect">#FF08AE9E</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="inputTextColor">#B4B4B4</color>
+    <color name="objectListItemBorder">#404040</color>
+    <color name="trans">#00000000 </color>.
+    <color name="black">#000000</color>
+</resources>

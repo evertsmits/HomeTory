@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/houseinfo_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@string/appFont"
+        android:text="@string/houseinfotab_text"
+        android:textColor="@color/colorText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/household_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="145dp"
+        android:textSize="14dp"
+        android:text="Household"
+        android:layout_below="@+id/houseinfo_text"
+        android:layout_alignStart="@+id/houseinfo_text" />
+
+    <TextView
+        android:id="@+id/household_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="14dp"
+        android:text="Household"
+        android:layout_marginEnd="39dp"
+        android:layout_alignTop="@+id/household_label"
+        android:layout_alignEnd="@+id/houseinfo_text" />
+
+    <TextView
+        android:id="@+id/building_year_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="21dp"
+        android:textSize="14dp"
+        android:text="Buildingyear"
+        android:layout_below="@+id/household_name"
+        android:layout_alignStart="@+id/household_label" />
+
+    <TextView
+        android:id="@+id/building_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="14dp"
+        android:text="BuildingYear"
+        android:layout_alignTop="@+id/building_year_label"
+        android:layout_alignStart="@+id/household_name" />
+
+    <TextView
+        android:id="@+id/street_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="22dp"
+        android:textSize="14dp"
+        android:text="Street"
+        android:layout_below="@+id/building_year"
+        android:layout_alignStart="@+id/building_year_label" />
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="14dp"
+        android:text="Streetname"
+        android:layout_alignTop="@+id/street_label"
+        android:layout_alignStart="@+id/building_year" />
+
+    <TextView
+        android:id="@+id/zipcode_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="21dp"
+        android:textSize="14dp"
+        android:text="Zipcode"
+        android:layout_below="@+id/street"
+        android:layout_alignStart="@+id/street_label" />
+
+    <TextView
+        android:id="@+id/zipcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="14dp"
+        android:text="Zipcode"
+        android:layout_alignTop="@+id/zipcode_label"
+        android:layout_alignStart="@+id/street" />
+
+</RelativeLayout>

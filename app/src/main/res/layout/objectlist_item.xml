@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:clipToPadding="false"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/object_image"
+        android:layout_width="131dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_weight="0.22"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorButton"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/label_name"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="name of the item"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorButtonText"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/object_name"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="10dp"
+                android:text="lololololol"
+                android:textColor="@color/colorButtonText"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/label_amount"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="How many in inventory"
+                android:textColor="@color/colorButtonText"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/object_amount"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="lololololol"
+                android:textColor="@color/colorButtonText"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/label_date"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="purchase date of the item"
+                android:textColor="@color/colorButtonText"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/object_purchase_date"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:text="lololololol"
+                android:textColor="@color/colorButtonText"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/label_location"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="location of the item"
+                android:textColor="@color/colorButtonText"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/object_location"
+                android:layout_width="match_parent"
+                android:background="@color/colorButton"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="lololololol"
+                android:textColor="@color/colorButtonText"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/editButton"
+                android:layout_width="71dp"
+                android:layout_height="59dp"
+                android:background="@color/trans"
+                app:srcCompat="@drawable/ic_mode_edit_mintgreen_24dp" />
+
+            <ImageButton
+                android:id="@+id/deleteButton"
+                android:layout_width="70dp"
+                android:layout_height="59dp"
+                android:background="@color/trans"
+                app:srcCompat="@drawable/ic_delete_mintgreen_24dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
